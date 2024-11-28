@@ -1,0 +1,53 @@
+body{
+    color:   rebeccapurple;
+    background-image:  url('https://img.freepik.com/premium-photo/abstract-bright-color-background-generative-ai_155807-1795.jpg?semt=ais_hybrid');
+    font-family: cursive;
+    font-size :x-large;
+          
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+   
+     
+}
+ button{
+  border-radius: 2px;
+   
+  border-style: double;
+  padding: 10px 10px;
+    font-size: 1em;
+    margin: 10px;
+    border: 3cm;
+    border-radius: 100px;
+    cursor: pointer ;
+ }
+ message{
+  border-color: aqua;
+  border-style: double;
+  padding: 10px 20px;
+  font-size: 5cm;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+ }
+ textarea {
+  width: 80%;
+  height: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 2em;
+  border: 3px solid #c01996;
+  border-radius: 5px;
+  resize: none; /* Prevents resizing */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: blue,purple,skyblue,indigo,yellow,lavender,cyan;
+   
+   
+}
+textarea:focus {
+  outline: none;
+  border-color: #007BFF; /* Highlight border on focus */
+  box-shadow: 0 0 8px rgba(180, 192, 10, 0.5);
+}
